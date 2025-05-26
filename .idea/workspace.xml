@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b390b75-2297-49ca-89c3-8fff9e9eb390" name="更改" comment="" />
+    <list default="true" id="9b390b75-2297-49ca-89c3-8fff9e9eb390" name="更改" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dx/study/juc/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,8 +29,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gitduxin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/gitduxin/JavaSE.git",
+    "accountId": "ec057a2a-8344-4277-8f5e-56b4eba4fe3c"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Future.java" root0="SKIP_INSPECTION" />
   </component>
@@ -30,6 +53,9 @@
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -62,6 +88,8 @@
     "JUnit.ThreadMethodTest.t1.executor": "Run",
     "JUnit.ThreadMethodTest.t2.executor": "Run",
     "JUnit.ThreadMethodTest.t3.executor": "Run",
+    "JUnit.ThreadTest.executor": "Run",
+    "JUnit.ThreadTest.t1.executor": "Run",
     "JUnit.ThreadTest.t2.executor": "Run",
     "JUnit.ThreadTest.t3.executor": "Run",
     "JUnit.ThreadTest.t4.executor": "Run",
@@ -75,6 +103,7 @@
     "Maven.JavaSE [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java/Idea_duxin/JavaSE",
@@ -86,7 +115,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true",
     "应用程序.AtomicTest.executor": "Run",
     "应用程序.ThreadTest.executor": "Run",
@@ -94,40 +123,9 @@
     "应用程序.Thread_test3.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ThreadMethodTest.t3">
-    <configuration name="ThreadCreateTest.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dx.study.juc.ThreadCreateTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dx.study.juc" />
-      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadCreateTest" />
-      <option name="METHOD_NAME" value="t3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCreateTest.t4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dx.study.juc.ThreadCreateTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dx.study.juc" />
-      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadCreateTest" />
-      <option name="METHOD_NAME" value="t4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadMethodTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ThreadTest.t1">
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadTest" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
@@ -135,10 +133,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dx.study.juc" />
-      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadMethodTest" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,13 +169,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadTest" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreadTest.t1" />
+        <item itemvalue="应用程序.ThreadTest" />
+        <item itemvalue="JUnit.ThreadTest" />
         <item itemvalue="JUnit.ThreadMethodTest.t3" />
         <item itemvalue="JUnit.ThreadMethodTest.t2" />
-        <item itemvalue="JUnit.ThreadMethodTest.t1" />
-        <item itemvalue="JUnit.ThreadCreateTest.t3" />
-        <item itemvalue="JUnit.ThreadCreateTest.t4" />
       </list>
     </recent_temporary>
   </component>
@@ -244,8 +269,25 @@
       <workItem from="1747909468750" duration="644000" />
       <workItem from="1747973015734" duration="1046000" />
       <workItem from="1748225678776" duration="10452000" />
-      <workItem from="1748239004783" duration="284000" />
+      <workItem from="1748239004783" duration="2775000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1748239364934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748239364934</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1748239499032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748239499032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +322,8 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
