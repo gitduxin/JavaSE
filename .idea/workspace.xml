@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b390b75-2297-49ca-89c3-8fff9e9eb390" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Future.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Java\maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jMfn4wXodTE8FQnWa4tZJ29iXq" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AtomicTest.executor": "Run",
+    "Application.ByteArrayInputStream_test.executor": "Run",
+    "Application.Executor_test.executor": "Run",
+    "Application.LockSupportTest.executor": "Run",
+    "Application.LockTest.executor": "Run",
+    "Application.MyCountDown.executor": "Run",
+    "Application.ReadAndWrite.executor": "Run",
+    "Application.ReadAndWrite_test2.executor": "Run",
+    "Application.SocketClient_Test.executor": "Debug",
+    "Application.SocketServer_Test.executor": "Run",
+    "Application.ThreadPool_test.executor": "Run",
+    "Application.Thread_test3.executor": "Run",
+    "Application.Threadlocal_test.executor": "Run",
+    "JUnit.InetAddress_Test.test01.executor": "Run",
+    "JUnit.LockTest.test1.executor": "Run",
+    "JUnit.ReadAndWrite_test2.test.executor": "Run",
+    "JUnit.ThreadMethodTest.t1.executor": "Run",
+    "JUnit.ThreadMethodTest.t2.executor": "Run",
+    "JUnit.ThreadMethodTest.t3.executor": "Run",
+    "JUnit.ThreadTest.t2.executor": "Run",
+    "JUnit.ThreadTest.t3.executor": "Run",
+    "JUnit.ThreadTest.t4.executor": "Run",
+    "JUnit.Thread_create.createRunnable.executor": "Run",
+    "JUnit.Thread_create.createThread.executor": "Run",
+    "JUnit.Thread_create.test3.executor": "Run",
+    "JUnit.Thread_method.test1.executor": "Run",
+    "JUnit.Thread_method.test2.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.JavaSE [clean].executor": "Run",
+    "Maven.JavaSE [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/Idea_duxin/JavaSE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AtomicTest.executor": "Run",
+    "应用程序.ThreadTest.executor": "Run",
+    "应用程序.Thread_test2.executor": "Run",
+    "应用程序.Thread_test3.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ThreadMethodTest.t3">
+    <configuration name="ThreadCreateTest.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.ThreadCreateTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadCreateTest" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadCreateTest.t4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.ThreadCreateTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadCreateTest" />
+      <option name="METHOD_NAME" value="t4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethodTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadMethodTest" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethodTest.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadMethodTest" />
+      <option name="METHOD_NAME" value="t2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMethodTest.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dx.study.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dx.study.juc" />
+      <option name="MAIN_CLASS_NAME" value="dx.study.juc.ThreadMethodTest" />
+      <option name="METHOD_NAME" value="t3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ThreadMethodTest.t3" />
+        <item itemvalue="JUnit.ThreadMethodTest.t2" />
+        <item itemvalue="JUnit.ThreadMethodTest.t1" />
+        <item itemvalue="JUnit.ThreadCreateTest.t3" />
+        <item itemvalue="JUnit.ThreadCreateTest.t4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="" name="Changes" comment="" />
+      <changelist id="" name="新建更改列表" comment="" />
+      <created>1721202029758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721202029758</updated>
+      <workItem from="1721202030763" duration="527000" />
+      <workItem from="1721202564727" duration="5581000" />
+      <workItem from="1721230000839" duration="1779000" />
+      <workItem from="1721656583325" duration="344000" />
+      <workItem from="1721711227265" duration="9144000" />
+      <workItem from="1722223719286" duration="3411000" />
+      <workItem from="1722316132387" duration="3854000" />
+      <workItem from="1722323308811" duration="1377000" />
+      <workItem from="1722341230630" duration="201000" />
+      <workItem from="1722341451910" duration="157000" />
+      <workItem from="1722341625612" duration="129000" />
+      <workItem from="1722341763104" duration="105000" />
+      <workItem from="1722341884851" duration="2907000" />
+      <workItem from="1722404299473" duration="1795000" />
+      <workItem from="1722487806214" duration="5411000" />
+      <workItem from="1722519670476" duration="629000" />
+      <workItem from="1722585973804" duration="591000" />
+      <workItem from="1723687518789" duration="313000" />
+      <workItem from="1723694183133" duration="1033000" />
+      <workItem from="1723696082190" duration="1263000" />
+      <workItem from="1723707814385" duration="5923000" />
+      <workItem from="1723776358189" duration="12633000" />
+      <workItem from="1723808889302" duration="9163000" />
+      <workItem from="1724216144010" duration="4226000" />
+      <workItem from="1736315427108" duration="12000" />
+      <workItem from="1736315444546" duration="39000" />
+      <workItem from="1736326210926" duration="20000" />
+      <workItem from="1736410854056" duration="121000" />
+      <workItem from="1736589258644" duration="1720000" />
+      <workItem from="1736686358775" duration="5000" />
+      <workItem from="1745296070425" duration="12000" />
+      <workItem from="1747107975052" duration="3289000" />
+      <workItem from="1747298599078" duration="36000" />
+      <workItem from="1747806491620" duration="331000" />
+      <workItem from="1747806872408" duration="121000" />
+      <workItem from="1747811047071" duration="3062000" />
+      <workItem from="1747829397869" duration="364000" />
+      <workItem from="1747832084125" duration="15000" />
+      <workItem from="1747889662502" duration="3803000" />
+      <workItem from="1747909468750" duration="644000" />
+      <workItem from="1747973015734" duration="1046000" />
+      <workItem from="1748225678776" duration="10452000" />
+      <workItem from="1748239004783" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="lock" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
