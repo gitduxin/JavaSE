@@ -54,6 +54,31 @@ public class ThreadMethodTest {
         t.join(); // 等待线程t执行完毕
     }
 
+
+    /**
+     * Thread.isInterrupted()方法，判断线程是否拥有中断标记，有返回ture
+     * Thread.interrupted()方法，同样也是判断线程是否拥有中断标记，返回结果并且清除中断标记
+     */
+    @Test
+    public void t3() throws InterruptedException {
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+
+                //返回true--true
+                System.out.println(Thread.currentThread().isInterrupted()+"---"+Thread.currentThread().isInterrupted());
+
+                //返回true--false
+                System.out.println(Thread.interrupted()+"---"+Thread.interrupted());
+            }
+        };
+        Thread t = new Thread(r,"t1");
+        t.start();
+        t.interrupt();
+        t.join(); // 等待线程t执行完毕
+    }
+
+
     /**
      * yield方法
      * 提示调度器当前线程愿意让出CPU
@@ -61,7 +86,7 @@ public class ThreadMethodTest {
      * 这是一个静态方法，只能影响当前执行的线程
      */
     @Test
-    public void t3(){
+    public void t4(){
         new Thread(()-> {
             System.out.println(Thread.currentThread().getName()+"_dosomething1");
             Thread.yield();

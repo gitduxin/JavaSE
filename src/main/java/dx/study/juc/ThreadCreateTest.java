@@ -14,7 +14,7 @@ public class ThreadCreateTest {
 
     }
 
-    /**直接创建Threa类，并且实现run方法*/
+    /**直接创建Thread类，并且实现run方法*/
     @Test
     public void t1(){
         Thread t1 = new Thread(){
