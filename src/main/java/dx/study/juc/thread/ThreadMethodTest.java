@@ -39,13 +39,16 @@ public class ThreadMethodTest {
                 for (int x = 0; x < 100000; x++) {
                     if (!Thread.currentThread().isInterrupted()) {
                         System.out.println(x);
+                    }else {
+                        System.out.println(Thread.currentThread().getName()+"已中断");
+                        break;
                     }
                 }
             }
         };
         Thread t = new Thread(r, "t1");
         t.start();
-        Thread.sleep(10);
+        Thread.sleep(1); //让它先执行一会
         t.interrupt();
         t.join(); // 等待线程t执行完毕
     }
