@@ -1,4 +1,4 @@
-package dx.study.juc;
+package dx.study.juc.thread;
 
 import org.junit.Test;
 
@@ -8,6 +8,8 @@ import java.util.concurrent.FutureTask;
 /***
  * 线程的实现方式
  */
+
+@SuppressWarnings("all")
 public class ThreadCreateTest {
 
     public static void main(String[] args) {

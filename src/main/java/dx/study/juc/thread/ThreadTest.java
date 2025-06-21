@@ -1,10 +1,11 @@
-package dx.study.juc;
+package dx.study.juc.thread;
 
 import org.junit.Test;
 
 /**
  * 线程问题测试
  */
+@SuppressWarnings("all")
 public class ThreadTest {
     private static boolean flag = true;
     private static int count = 0;
